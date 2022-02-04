@@ -24,7 +24,6 @@ public class ReverseStringWOchangingSpacePositions {
 			ll.add(i,c[i]);
 			}			
 		}
-		
 		for (Character ch : ll) {
 			rev=rev+ch;
 		}

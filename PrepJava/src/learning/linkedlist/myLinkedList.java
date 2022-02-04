@@ -3,7 +3,7 @@ package learning.linkedlist;
 
 public class myLinkedList {
 
-	Node head;
+	  Node head;
 	
 	static int pos;
 	static int size;
@@ -69,6 +69,17 @@ public class myLinkedList {
 	catch (Exception e) {
 		System.out.println("Entered Index is Invalid.... Please enter a proper Index");
 		}
+	}
+	
+	public Node middleNode (Node head) {
+		Node fast = head;
+		Node slow = head;
+		
+		while (fast != null && fast.next != null) {
+			slow = slow.next;
+			fast = fast.next.next;
+		}
+		return slow;
 	}
 	
 	public void addNode(int index, int data) {

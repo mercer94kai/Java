@@ -22,7 +22,7 @@ public class pracTest {
 			}
 		}
 		
-		System.out.println(hm.size());
+		System.out.println(hm);
 	}
 
 }

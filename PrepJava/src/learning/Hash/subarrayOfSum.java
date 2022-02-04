@@ -8,11 +8,11 @@ public class subarrayOfSum {
 
 	public static void main(String[] args) {
 		
-		int[] arr1 = {10,15,-5,15,-10,5};
+		int[] arr1 = {2,7,11,15};
 		
 		int curSum = 0; 
-		int sum=35; 
-		int start=0;
+		int sum = 9; 
+		int start = 0;
 		int end = -1;
 		
 		HashMap<Integer, Integer> map = new HashMap<>();
