@@ -4,11 +4,10 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {1,2,3,4};
+		int[] arr = {7,69,2,221,8974};
 		
 		for (int i=0; i<arr.length-1;i++) {
 			boolean isSwaped=false;
-
 			for (int j=0; j<arr.length-i-1;j++) {
 				if (arr[j]>arr[j+1]) {
 					isSwaped=true;
@@ -17,7 +16,6 @@ public class BubbleSort {
 			}
 			
 			if (!isSwaped) {
-				System.out.println("No swap required");
 				break;
 			}
 		}
@@ -33,7 +31,6 @@ public class BubbleSort {
 		 if (i == j) {
 	            return;
 	        }
-		 
 	        int temp = arr[i];
 	        arr[i] = arr[j];
 	        arr[j] = temp;
