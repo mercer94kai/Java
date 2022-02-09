@@ -1,7 +1,5 @@
 package learning.linkedlist;
 
-import java.util.Collections;
-
 public class Runner {
 
 	public static void main(String[] args) {

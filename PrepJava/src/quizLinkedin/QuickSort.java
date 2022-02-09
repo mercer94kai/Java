@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class QuickSort {
 
 	public static void main(String[] args) {
-		int[] arr = {8,6,2,5,7,9,4,3};
+		int[] arr = {0,1,2,4,6,5,3};
 		quickSort(arr, 0, arr.length-1);
 		int median = 0;
 		if (arr.length%2==0) {
