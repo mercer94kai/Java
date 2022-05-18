@@ -11,7 +11,7 @@ public class subarrayOfSum {
 		int[] arr1 = {2,7,11,15};
 		
 		int curSum = 0; 
-		int sum = 9; 
+		int sum = 18; 
 		int start = 0;
 		int end = -1;
 		

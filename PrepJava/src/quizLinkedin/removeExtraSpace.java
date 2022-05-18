@@ -6,7 +6,7 @@ public class removeExtraSpace {
 		
 		String str = "I  love  java  ,too  much ??";
 		
-		String nstr = str.trim().replaceAll(" +", " ");
+		String nstr = str.trim().replaceAll(" +"," ");
 		System.out.println(nstr);
 	}
 

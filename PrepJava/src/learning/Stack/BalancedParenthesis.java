@@ -6,7 +6,7 @@ public class BalancedParenthesis {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "(()}";
+		String s = "([{})]";
 		System.out.println(IsBalanced(s));
 	}
 	
