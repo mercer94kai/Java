@@ -2,7 +2,7 @@ package quizLinkedin;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class  QuickSort {
 
 	public static void main(String[] args) {
 		int[] arr = {0,1,2,4,6,5,3};

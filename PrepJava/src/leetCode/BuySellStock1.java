@@ -1,6 +1,6 @@
 package leetCode;
 
-public class BuySellStock1 {
+public class  BuySellStock1 {
 	
 		//7,1,5,3,6,4
 		//5,2,7,3,6,1,2,4
