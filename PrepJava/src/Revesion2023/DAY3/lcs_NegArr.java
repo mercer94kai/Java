@@ -1,4 +1,4 @@
-package Revesion2023.DAY3;
+package PrepJava.src.Revesion2023.DAY3;
 
 public class lcs_NegArr {
     public static void main(String[] args) {

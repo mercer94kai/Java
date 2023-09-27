@@ -7,7 +7,7 @@ public class intersectOfArray {
 
 	public static void main(String[] args) {
 		
-		int[] arr1 = {5,10,15,10};
+		int[] arr1 = {5,10,15,5 };
 		int[] arr2 = {15,10,4};
 		Set<Integer> set = new HashSet<>();
 		Set<Integer> set2 = new HashSet<>();
@@ -17,7 +17,6 @@ public class intersectOfArray {
 		
 		for (Integer j : arr2) {
 			if (set.contains(j)) {
-				set.remove(j);
 				set2.add(j);
 			}
 		}

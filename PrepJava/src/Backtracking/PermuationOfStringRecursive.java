@@ -1,4 +1,4 @@
-package Backtracking;
+package PrepJava.src.Backtracking;
 
 public class PermuationOfStringRecursive {
 

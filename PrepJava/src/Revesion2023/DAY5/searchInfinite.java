@@ -1,4 +1,4 @@
-package Revesion2023.DAY5;
+package PrepJava.src.Revesion2023.DAY5;
 
 public class searchInfinite {
     public static void main(String[] args) {
@@ -9,8 +9,7 @@ public class searchInfinite {
     public static int searchInfinite(int[] a, int k){
         int low=0;
         int high=1;
-        int mid=(low+high)/2;
-        while (a[mid] < k){
+        while (a[high] < k){
             low=high;
             high=2*high;
         }

@@ -1,4 +1,4 @@
-package Revesion2023.DAY2;
+package PrepJava.src.Revesion2023.DAY2;
 
 public class findWaysNMmatrix {
     public static void main(String[] args) {
