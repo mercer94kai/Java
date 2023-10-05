@@ -1,4 +1,4 @@
-package Revesion2023.DAY5;
+package PrepJava.src.Revesion2023.DAY5;
 
 public class binarySearchRecurDSA1 {
     public static void main(String[] args) {

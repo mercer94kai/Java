@@ -1,4 +1,4 @@
-package interviewQues;
+package PrepJava.src.interviewQues;
 
 import java.util.HashMap;
 

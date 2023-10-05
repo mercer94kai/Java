@@ -1,4 +1,4 @@
-package learning.Hash;
+package PrepJava.src.learning.Hash;
 
 //  {10,15,-5,15,-10,5}
 // sum = 20
@@ -8,10 +8,11 @@ public class subarrayOfSum {
 
 	public static void main(String[] args) {
 		
-		int[] arr1 = {2,7,11,15};
+		//int[] arr1 = {2,11,6,4,20,15,9,22};
+		int[] arr1 = {10,15,-5,15,-10,5};
 		
 		int curSum = 0; 
-		int sum = 18; 
+		int sum =5;
 		int start = 0;
 		int end = -1;
 		

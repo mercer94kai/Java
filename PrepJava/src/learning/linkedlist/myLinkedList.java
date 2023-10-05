@@ -1,4 +1,4 @@
-package learning.linkedlist;
+package PrepJava.src.learning.linkedlist;
 
 
 public class myLinkedList {
@@ -25,10 +25,10 @@ public class myLinkedList {
 		temp.next = addNewNode;
 	}
 
-	public Node revLinkedList(Node node) {
+	public Node revLinkedList(Node head) {
 
 		Node prev = null;
-		Node current = node;
+		Node current = head;
 		Node temp = null;
 		while (current != null) {
 			temp = current.next;
@@ -37,6 +37,17 @@ public class myLinkedList {
 			current = temp;
 		}
 		return prev;
+	}
+
+	public Node revLnkLstWREC(Node head){
+		if (head==null || head.next==null ){
+			return head;
+		}
+		Node newHead=revLnkLstWREC(head.next);
+		Node headnext=head.next;
+		headnext.next=head;
+		head.next=null;
+		return newHead;
 	}
 	public void print() {
 

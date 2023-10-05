@@ -1,4 +1,4 @@
-package leetCode;
+package PrepJava.src.leetCode;
 
 public class StoringRainwater {
 		//3,1,2,4,0,1,3,2

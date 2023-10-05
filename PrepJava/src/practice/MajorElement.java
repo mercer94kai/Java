@@ -1,5 +1,5 @@
-package practice;
-
+package PrepJava.src.practice;
+//Moore's Voting Algo
 public class MajorElement {
 
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class MajorElement {
 				count--;
 			}
 			if (count==0) {
-				
+
 				major=i;
 				count=1;
 			}

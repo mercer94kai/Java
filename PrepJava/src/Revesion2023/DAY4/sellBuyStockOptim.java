@@ -13,10 +13,10 @@ public class sellBuyStockOptim  {
         int sell=0;
 
         for (int i=0;i<a.length;i++){
-            profit=a[i]-minSell;
             if (minSell>a[i]){
                 minSell=a[i];
             }
+            profit=a[i]-minSell;
             if (profit>maxProf){
                 maxProf=profit;
                 buy=minSell;
