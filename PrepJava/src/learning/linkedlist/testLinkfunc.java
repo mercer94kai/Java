@@ -1,4 +1,4 @@
-package learning.linkedlist;
+package PrepJava.src.learning.linkedlist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
