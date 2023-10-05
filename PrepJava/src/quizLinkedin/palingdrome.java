@@ -13,11 +13,9 @@ public class palingdrome {
 		
 		while (n>0) {	
 		sum=sum*10+(n%10);
-		System.out.println(sum);
 		n=n/10;
 		}
-		
-		System.out.println(sum);
+
 		
 		if (sum == k) {
 			System.out.println(k +" No is palingdrome");

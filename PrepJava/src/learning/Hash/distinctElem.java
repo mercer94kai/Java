@@ -13,7 +13,7 @@ public class distinctElem {
 		for (Integer i : arr) {
 			set.add(i);
 		}
-		
+
 		System.out.println(set);
 		System.out.println("No of Distict Elem: "+set.size());
 	}
