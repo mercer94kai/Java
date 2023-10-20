@@ -31,14 +31,3 @@ public class StoringRainwater {
 	}
 
 }
-//====================================================
-//if (leftbig >= rightbig) {
-//if((rightbig -arr[i])>0) {
-//	totalrain = totalrain+(rightbig - arr[i]);
-//}
-//}
-//else {
-//if((leftbig -arr[i])>0) {
-//	totalrain = totalrain+(leftbig - arr[i]);
-//}
-//}

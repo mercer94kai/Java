@@ -1,4 +1,4 @@
-package PrepJava.src.learning.Hash;
+package learning.Hash;
 
 public class subarrayofSumWOHash {
     public static void main(String[] args) {
