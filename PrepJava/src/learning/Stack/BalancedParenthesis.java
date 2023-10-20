@@ -19,7 +19,7 @@ public class BalancedParenthesis {
 				stc.push(c);
 			}
 			else {
-				if (s.isEmpty()) {
+				if (s.isEmpty() || stc.isEmpty()) {
 					return false;
 				}
 				else if(!isMatching(stc.peek(), c)) {
