@@ -29,11 +29,11 @@ public class CoinChange {
                     subAns=dp[n-a[i]];
                 }
                 else {
-                    //if not presnt in dp array then we are calling the recursive function
+                    //if not present in dp array then we are calling the recursive function
                     subAns = minCoin(n - a[i], a);
                 }
                 //Since we are trying to get answers from sub problems then that means we have already used 1 coin,
-                //So to get the actual answer we need to add taht 1 coin to answer to get the actual value
+                //So to get the actual answer we need to add that 1 coin to answer to get the actual value
                 if (subAns!=Integer.MAX_VALUE && subAns+1 < ans){
                     ans=subAns+1;
                 }
