@@ -14,10 +14,10 @@ public class KnapsackProblem {
 
         //fill the base cases with 0
         for (int r = 0; r < n + 1; r++) {
-            arr[0][r] = 0;
+            arr[r][0] = 0;
         }
         for (int c = 0; c < W + 1; c++) {
-            arr[c][0] = 0;
+            arr[0][c] = 0;
         }
         //Now we will be checking every item against the Capacity(W)
         for (int item = 1; item <= n; item++) {
