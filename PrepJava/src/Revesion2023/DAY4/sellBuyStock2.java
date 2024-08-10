@@ -1,6 +1,6 @@
 package PrepJava.src.Revesion2023.DAY4;
 
-public class sellBuyStock2 {
+public class  sellBuyStock2 {
 
     public static void main(String[] args) {
         int[] arr = {5,2,7,3,6,1,2,4};

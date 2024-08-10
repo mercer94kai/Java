@@ -1,6 +1,6 @@
 package PrepJava.src.Revesion2023.DAY5;
 
-public class binarySeachRotatedArrr {
+public class  binarySeachRotatedArrr {
     public static void main(String[] args) {
         int[] arr={20,30,40,50,60,5,10};
         System.out.println(Rbinser(arr,5));

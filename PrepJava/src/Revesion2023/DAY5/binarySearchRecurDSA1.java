@@ -1,6 +1,6 @@
 package PrepJava.src.Revesion2023.DAY5;
 
-public class binarySearchRecurDSA1 {
+public class  binarySearchRecurDSA1 {
     public static void main(String[] args) {
         int[] arr={-4,-1,3,7,10,11};
         System.out.println(binSear(arr,11,0,arr.length-1));

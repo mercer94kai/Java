@@ -1,8 +1,8 @@
 package Training102023;
-//Q:Kadane's Algorithm
+//Q:  Kadane's Algorithm
 public class P3 {
     public static void main(String[] args) {
-        int[] arr ={-1,-2,-3,-4};
+        int[] arr ={5,-4,-2,6,1};
         System.out.println(maxSubarraySum(arr,arr.length));
     }
     public static long maxSubarraySum(int arr[], int n){

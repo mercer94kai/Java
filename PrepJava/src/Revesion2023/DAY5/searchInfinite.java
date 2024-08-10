@@ -1,6 +1,6 @@
 package PrepJava.src.Revesion2023.DAY5;
 
-public class searchInfinite {
+public class  searchInfinite {
     public static void main(String[] args) {
 
     // Take an sorted infinite array as input and call the function with array & the key

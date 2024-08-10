@@ -18,7 +18,7 @@ public class  QuickSort {
 //		System.out.println(arr[median -1]);
 	}
 	
-	public static void quickSort(int[] a , int low, int high) {
+	public static void quickSort(int[] a, int low, int high) {
 		
 		if (low < high) {
 			int pivot = partition(a, low, high);
