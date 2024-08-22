@@ -3,7 +3,7 @@ package src.PracticeLab2024;
 public class firstunique_ASCII {
     public static void main(String[] args) {
 
-        String s="aabb";
+        String s="aacbeb";
         System.out.println(unique(s));
     }
 

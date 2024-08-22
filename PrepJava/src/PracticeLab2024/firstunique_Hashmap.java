@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class firstunique_Hashmap {
     public static void main(String[] args) {
 
-        String s="aabb";
+        String s="aarbbc";
         System.out.println(unique(s));
     }
 
