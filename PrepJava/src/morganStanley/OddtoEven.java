@@ -47,6 +47,7 @@ public class OddtoEven {
 	}
 	
 	public static int val(char c) {
+
 		return Integer.parseInt(String.valueOf(c));
 	}
 	

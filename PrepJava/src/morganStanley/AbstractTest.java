@@ -3,6 +3,7 @@ package morganStanley;
 public abstract class AbstractTest {
 	
 	public int getNum() {
+
 		return 45;
 	}
 	public abstract class Bar{
