@@ -1,7 +1,6 @@
 package learning.Hash;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class unionOfArrays {
 
@@ -11,7 +10,7 @@ public class unionOfArrays {
 		int[] ar2 = {10,15,4,5};
 		
 		Set<Integer> set = new HashSet<>();
-		
+
 		for (Integer i : ar1  ) {
 			set.add(i);
 		}
@@ -19,7 +18,9 @@ public class unionOfArrays {
 		for (Integer j : ar2  ) {
 			set.add(j);
 		}
-		
+
+		ArrayList<Integer> alist=new ArrayList<>(set);
+		Collections.sort(alist);
 		System.out.println(set);
 		System.out.println(set.size());
 	}
