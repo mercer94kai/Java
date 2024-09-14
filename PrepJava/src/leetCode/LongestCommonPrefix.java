@@ -7,7 +7,11 @@ public class LongestCommonPrefix {
 	public static void main(String[] args) {
 		
 		String[] str = {"kaifa","kafka","kaiya", "kaif"};
-		
+		System.out.println(lcp(str));
+	}
+
+	private static String lcp(String[] str) {
+
 		Arrays.sort(str);
 		System.out.println(Arrays.toString(str));
 		int i;
@@ -17,12 +21,8 @@ public class LongestCommonPrefix {
 			}
 			break;
 		}
-		if (i>0) {
-			System.out.println(str[0].substring(0, i));
-		}
-		else {
-			System.out.println("");
-		}
+
+		return (i>0)?str[0].substring(0, i):"-1";
 	}
 
 }
