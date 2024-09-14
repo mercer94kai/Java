@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class longestpalingdrome {
     public static void main(String[] args) {
 
-        String s="bananas";
+        String s="aaaabbaa";
         System.out.println(lenPaling(s));
     }
 
