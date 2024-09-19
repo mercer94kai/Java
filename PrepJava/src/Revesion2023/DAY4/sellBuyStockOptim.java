@@ -1,5 +1,9 @@
 package Revesion2023.DAY4;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class    sellBuyStockOptim  {
     public static void main(String[] args) {
         int[] arr = {3,5,1,7,4,9,3};
@@ -16,5 +20,6 @@ public class    sellBuyStockOptim  {
            max_prof=Math.max(prof,max_prof);
         }
         System.out.println("Buy: "+minSofar+" Sell: "+(max_prof+minSofar)+" MaxProf: "+max_prof);
+
     }
 }

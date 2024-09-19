@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class CoinChange {
     public static void main(String[] args) {
-        int[] arr = {7,5,1};
-        System.out.println(minCoin(18,arr));
+        int[] arr = {1,2,3};
+        System.out.println(minCoin(4,arr));
     }
     static int minCoin(int n, int[] a){
 
@@ -39,7 +39,7 @@ public class CoinChange {
                 }
             }
         }
-        //we are adding the values from recursive func to the dp array as well as returning the value, being lazy i guess.
+        //we are adding the values from recursive func to the dp array as well as returning the value.
         return dp[n]=ans;
     }
 }
