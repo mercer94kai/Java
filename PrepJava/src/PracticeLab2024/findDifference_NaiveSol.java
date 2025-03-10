@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class findDifference_NaiveSol {
     public static void main(String[] args) {
-        String s="";
-        String t="y";
+        String s="abcd";
+        String t="adebc";
         System.out.println(findDiff(s,t));
     }
 

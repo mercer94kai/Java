@@ -8,7 +8,6 @@ public class coinCountWays_BasicSol {
 
     private static long count(int k,int n,int[] coins) {
 
-       long ans=0;
 
         if(k==0){
             return 1;

@@ -4,8 +4,9 @@ package PrepJava.src.Revesion2023.DAY7;
 //Desc: Minimise the maximum numbers of pages read by a student
 public class AllocateMinPages {
     public static void main(String[] args) {
-        int[] arr ={10,20,5,15,5};
-        System.out.println(minPages(arr,2));
+       // int[] arr ={10,20,5,15,5};
+        int[] arr={12,34,67,90};
+        System.out.println(minPages(arr,5));
     }
 
     public static int minPages(int[] a, int k){

@@ -3,7 +3,7 @@ package src.PracticeLab2024;
 public class findDifferenceOPT {
     public static void main(String[] args) {
         String s="abcd";
-        String t="abecd";
+        String t="abcfd";
         System.out.println(findDiffe(s,t));
     }
 

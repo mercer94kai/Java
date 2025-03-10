@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class CoinChange {
     public static void main(String[] args) {
-        int[] arr = {1,2,3};
-        System.out.println(minCoin(4,arr));
+        int[] arr = {1,5,7};
+        System.out.println(minCoin(18,arr));
     }
     static int minCoin(int n, int[] a){
 

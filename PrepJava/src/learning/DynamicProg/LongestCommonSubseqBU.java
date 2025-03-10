@@ -7,7 +7,7 @@ package learning.DynamicProg;
 
 import java.util.Stack;
 
-public class LongestCommonSubseqBU {
+public class  LongestCommonSubseqBU {
     public static void main(String[] args) {
         String a = "ABCAB";
         String b = "AECB";
