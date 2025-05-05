@@ -2,8 +2,8 @@ package PrepJava.src.Revesion2023.DAY3;
 //Kadane's algorithm
 public class largestContinousSum {
     public static void main(String[] args) {
-    //int arr[]={5,-4,-2,6,-1};
-    int arr[]={1,-2,3,2,-6,4,100};
+    int arr[]={-5,4,6,-3,4,-1};
+    //int arr[]={1,-2,3,2,-6,4,100};
     System.out.println(maxSubArray(arr));
     }
 

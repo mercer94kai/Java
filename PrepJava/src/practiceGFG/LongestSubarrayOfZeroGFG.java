@@ -1,11 +1,11 @@
 package practiceGFG;
 
 import java.util.HashMap;
-
+//subarray sum with negetive e lem
 public class LongestSubarrayOfZeroGFG {
 
 	public static void main(String[] args) {
-		int[] arr = {-1,1,-1,1};
+		int[] arr = {1,-1,1,-1,1};
 
 		longestSubzero(arr);
 

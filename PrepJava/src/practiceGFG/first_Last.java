@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class first_Last {
     public static void main(String[] args) {
         int[] arr = {7,7,9,10,10};
-        System.out.println(findVal(arr,arr.length,6));
+        System.out.println(findVal(arr,arr.length,9));
     }
 
     private static ArrayList<Integer> findVal(int[] arr, int n, int x) {

@@ -13,6 +13,6 @@ public class  searchInfinite {
             low=high;
             high=2*high;
         }
-        return binarySearchRecurDSA1.binSear(a,k,low,high);
+        return PrepJava.src.Revesion2023.DAY5.binarySearchRecurDSA1.binSear(a,k,low,high);
     }
 }

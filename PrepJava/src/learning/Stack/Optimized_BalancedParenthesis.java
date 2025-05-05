@@ -1,4 +1,4 @@
-package learning.Stack;
+package src.learning.Stack;
 
 import java.util.Stack;
 

@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 public class longestConsecSubarray {
     public static void main(String[] args) {
-        int[] arr={1,9,3,10,4,20,2};
+        int[] arr={1,9,3,10,4,8,11,5};
         System.out.println(longestSub(arr));
     }
 

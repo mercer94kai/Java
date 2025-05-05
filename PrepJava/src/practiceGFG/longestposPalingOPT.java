@@ -3,7 +3,7 @@ package src.practiceGFG;
 public class longestposPalingOPT {
     public static void main(String[] args) {
 
-        String S="aaaabbaa";
+        String S="cbbd";
         System.out.println(posPaling(S));
     }
 

@@ -1,5 +1,6 @@
 package interviewQues;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Extractlast4 {
@@ -9,7 +10,7 @@ public class Extractlast4 {
 		Scanner sc = new Scanner(System.in);
 		String str= sc.nextLine();
 		
-		System.out.println(str.substring(str.length()-4, str.length()));
+		System.out.println(str.substring(str.length()-4));
 		//in substring method the beginning index is inclusive
 		//in substring method the ending index is exclusive
 	}

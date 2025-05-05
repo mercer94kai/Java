@@ -1,6 +1,6 @@
 package PrepJava.src.Backtracking;
 
-public class   PermuationOfStringRecursive {
+public class PermuationOfStringRecursive {
 
 public static void main(String[] args) {
 		

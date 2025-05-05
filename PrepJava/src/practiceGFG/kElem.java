@@ -7,7 +7,7 @@ public class kElem {
     public static void main(String[] args) {
         int[] arr1={2, 3, 6, 7, 9};
         int[] arr2={1, 4, 8, 10};
-        System.out.println(findElem(5,arr1,arr2));
+        System.out.println(findElem(6,arr1,arr2));
     }
 
     private static long findElem(int k, int[] arr1, int[] arr2) {

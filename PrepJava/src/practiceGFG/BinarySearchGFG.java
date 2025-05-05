@@ -1,6 +1,6 @@
 package practiceGFG;
 
-public class BinarySearchGFG {
+public class   BinarySearchGFG {
 
 	public static void main(String[] args) {
 		
