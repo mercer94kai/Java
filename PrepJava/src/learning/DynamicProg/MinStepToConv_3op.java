@@ -6,8 +6,8 @@ public class MinStepToConv_3op {
 
     public static void main(String[] args) {
 
-        String s1="ABCA";
-        String s2="ACDB";
+        String s1="horse";
+        String s2="ros";
 
         System.out.println(minStep(s1.length(),s2.length(),s1,s2));
     }
