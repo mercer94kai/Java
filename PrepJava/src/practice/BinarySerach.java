@@ -7,7 +7,7 @@ public class BinarySerach {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int k,n = sc.nextInt();
+		int n = sc.nextInt();
 		int flag = 0,index = 0;
 		int arr[] = new int[n];
 		for (int i=0 ;i<n;i++) {
@@ -17,7 +17,7 @@ public class BinarySerach {
 			System.out.print(i);
 		}
 		System.out.println("");
-		k=sc.nextInt();
+		int k=sc.nextInt();
 		
 		for (int i =0 ; i<n; i++) {
 			if (arr[i]==k) {

@@ -1,10 +1,10 @@
-package PrepJava.src.Backtracking;
+package Backtracking;
 
 public class PermuationOfStringRecursive {
 
 public static void main(String[] args) {
 		
-		String str="abc";
+		String str="((()))";
 		permute(str, 0, str.length()-1);
 	}
 	public static void permute (String s, int l, int r) {

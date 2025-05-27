@@ -1,4 +1,4 @@
-package PrepJava.src.learning.linkedlist;
+package learning.linkedlist;
 
 
 public class myLinkedList {
