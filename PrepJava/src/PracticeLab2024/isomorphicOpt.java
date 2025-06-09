@@ -19,6 +19,7 @@ Where 114 is an ascii code for 'r' and 0 is assigned to this index by default wh
 The i+1 thingy is there so that we don't compare chars that are at 0's positions in strings with 0's in int[] arrays.
 */
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class isomorphicOpt {

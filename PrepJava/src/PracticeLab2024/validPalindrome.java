@@ -1,12 +1,11 @@
 package src.PracticeLab2024;
-
+//prob_125Easy
 import java.util.Scanner;
 
 public class validPalindrome {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner (System.in);
-        String str = sc.nextLine();
+        String str ="A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(str));
     }
 
