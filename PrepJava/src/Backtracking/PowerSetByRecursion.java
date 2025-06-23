@@ -5,7 +5,7 @@ public class PowerSetByRecursion {
 	public static void main(String[] args) {
 
 
-		String s = "abc";
+		String s = "cac";
 		String curr="";
 		powersSet(s,0,curr);
 	}

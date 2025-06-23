@@ -1,5 +1,5 @@
 package PrepJava.src.learning.DynamicProg;
-
+//ABDCBTAP
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Map;
@@ -8,9 +8,7 @@ import java.util.Set;
 public class LongestPalingdromeSunbseq {
 
     public static void main(String[] args) {
-        String s1="ABDCBTAP";
-
-        String[] str=s1.split("");
+        String s1="cbbd";
         lcs(s1);
     }
 

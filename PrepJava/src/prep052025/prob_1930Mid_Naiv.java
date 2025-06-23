@@ -29,7 +29,7 @@ public class prob_1930Mid_Naiv {
         if (!map.containsKey(s)) {
             for (int i = 0; i < s.length(); i++) {
                 String curr = s.substring(0, i) + s.substring(i + 1);
-                //System.out.println(curr);
+                System.out.println(curr);
                 if (isPalingdrome(curr) && curr.length() == 3) {
                     map.put(curr, curr.length());
                 } else {

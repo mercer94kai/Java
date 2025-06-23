@@ -4,7 +4,7 @@ public class PermuationOfStringRecursive {
 
 public static void main(String[] args) {
 		
-		String str="((()))";
+		String str="zab";
 		permute(str, 0, str.length()-1);
 	}
 	public static void permute (String s, int l, int r) {
