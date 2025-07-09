@@ -8,6 +8,7 @@ public class prob_415Easy {
     }
 
     private static String addStrings(String s1, String s2) {
+
         return String.valueOf(strToInt(s1)+strToInt(s2));
     }
 
